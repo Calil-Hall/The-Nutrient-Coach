@@ -1,5 +1,6 @@
 
 
+/* hero starts  */
 
 .img1{
     width: 50%;
@@ -19,3 +20,161 @@
 .img-size-2{
     width: 100%;
 }
+
+.container, .row, .col {
+    padding: 0;
+    margin: 0;
+}
+
+.img-size-2 {
+    width: 100%;
+    display: block; /* This ensures there is no extra space below the image */
+}
+
+
+.img-size-2 {
+    width: 100%;
+    height: auto; /* Adjust height automatically */
+    object-fit: cover; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+.text-spacing{
+    margin-top: 10%;
+}
+
+.text-spacing-h1{
+    margin-top: 10%;
+}
+
+.text-spacing-p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.button-postion{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.hero-button-1 {
+    background-color: #CBEA7B; /* Button background color */
+    color: black; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Text weight */
+    margin-right: 10px; /* Margin between buttons */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.hero-button-2 {
+    background-color: #F6FBE9; /* Button background color */
+    color: black; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Text weight */
+    margin-right: 10px; /* Margin between buttons */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.hero-button-1:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    color: #fff; /* Text color on hover */
+}
+
+.hero-button-2:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    color: #fff; /* Text color on hover */
+}
+
+.underline-text {
+    border-bottom: 2px solid green; /* Green underline */
+    display: inline; /* Makes the border only as wide as the text */
+    margin-top: 10%;
+}
+
+.hero-section h5 {
+    text-decoration: underline;
+}
+
+.hero-button-1, .hero-button-2 {
+    /* Existing styles */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform to the transition */
+}
+
+.hero-button-1:hover, .hero-button-2:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    color: #fff; /* Text color on hover */
+    transform: scale(1.05); /* Slightly increase the size */
+}
+
+.text-spacing-h1 {
+    margin-top: 20%; /* Increase the top margin */
+}
+
+.br-spaceing{
+    margin-top: 20%;
+}
+
+
+
+/* hero ends */
+
+
+
+
+.navbar {
+    background-color: #1b5e20; /* Dark green background */
+  }
+  
+  .navbar .navbar-toggler {
+    border-color: #81c784; /* Light green border for the toggler */
+  }
+  
+  .navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2381c784' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Light green toggler icon */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #81c784; /* Light green text */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #a5d6a7; /* Lighter green text on hover */
+  }
+  
+  /* Active or current menu item */
+  .navbar-dark .navbar-nav .active>.nav-link,
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show>.nav-link {
+    color: #c8e6c9; /* Even lighter green text for active item */
+  }
+  
+
+  /* Custom CSS for Navbar Hover Effect */
+.nav-link {
+    transition: transform 0.15s ease; /* Smooth transition for transform property */
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+    transform: scale(1.1); /* Increase size to 110% on hover */
+  }
+
+
+  /* Custom CSS for Navbar */
+.nav-link {
+    color: #4CAF50; /* Set default color for all nav links */
+    transition: transform 0.5s ease, color 0.5s ease; /* Smooth transition for transform and color properties */
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+    transform: scale(1.05); /* Slightly increase size for a smoother effect */
+    color: #4CAF50; /* Highlight color when hovered or focused */
+  }
+  
