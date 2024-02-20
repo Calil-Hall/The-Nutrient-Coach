@@ -126,8 +126,9 @@
 /* hero ends */
 
 
+/* Custom styles for hero section, if any, would go here */
 
-
+/* Navbar Styles */
 .navbar {
     background-color: #1b5e20; /* Dark green background */
   }
@@ -140,41 +141,90 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2381c784' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Light green toggler icon */
   }
   
+  /* Setting default color for all nav links */
   .navbar-dark .navbar-nav .nav-link {
-    color: #81c784; /* Light green text */
+    color: #4CAF50; /* Green text for all nav states */
+    transition: color 0.5s ease; /* Smooth transition for color property */
   }
   
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #a5d6a7; /* Lighter green text on hover */
+  /* Hover and focus styles for nav links */
+  .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+    color: #4CAF50; /* Keeping the same green color on hover/focus */
+    transition: color 0.5s ease; /* Smooth transition for color property */
+    color: #0056b3; /* Darker background on hover */
   }
   
-  /* Active or current menu item */
+  /* Active or current menu item styles */
   .navbar-dark .navbar-nav .active>.nav-link,
   .navbar-dark .navbar-nav .nav-link.active,
   .navbar-dark .navbar-nav .nav-link.show,
   .navbar-dark .navbar-nav .show>.nav-link {
-    color: #c8e6c9; /* Even lighter green text for active item */
+    color: #4CAF50; /* Keeping the same green color for active state */
+    
   }
   
-
   /* Custom CSS for Navbar Hover Effect */
-.nav-link {
+  .nav-link {
+    color: #0056b3; /* Darker background on hover */
     transition: transform 0.15s ease; /* Smooth transition for transform property */
   }
   
   .nav-link:hover, .nav-link:focus {
     transform: scale(1.1); /* Increase size to 110% on hover */
-  }
-
-
-  /* Custom CSS for Navbar */
-.nav-link {
-    color: #4CAF50; /* Set default color for all nav links */
-    transition: transform 0.5s ease, color 0.5s ease; /* Smooth transition for transform and color properties */
+    color: #0056b3; /* Darker background on hover */
   }
   
-  .nav-link:hover, .nav-link:focus {
-    transform: scale(1.05); /* Slightly increase size for a smoother effect */
-    color: #4CAF50; /* Highlight color when hovered or focused */
+
+
+
+
+
+
+
+
+
+
+
+  /* what you get starts */
+
+
+
+
+  .card {
+    background-color: #00ff15; /* Light green background, change as needed */
+    border-radius: 10px; /* Rounded corners for the card */
+    border: none; /* Remove card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 30px; /* Space below each card */
   }
   
+  .card-body {
+    padding: 20px; /* Space inside the card */
+    background-color: #E5F5BD;
+  }
+
+  .card-text{
+    background-color: #E5F5BD;
+  }
+
+  
+  .card-icon {
+    width: 50px; /* Fixed icon width, adjust as needed */
+    height: auto; /* Keep icon aspect ratio */
+    margin-right: 15px; /* Add space between icon and title */
+  }
+  
+  .card-title {
+    color: #4CAF50; /* Green color for the title */
+    margin-bottom: 15px; /* Space below title */
+  }
+  
+  .card-text {
+    color: #666; /* Dark grey color for text */
+  }
+  
+
+
+
+  /* what you get ends */
