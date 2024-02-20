@@ -197,15 +197,18 @@
     border: none; /* Remove card border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     margin-bottom: 30px; /* Space below each card */
+    overflow-x: hidden;
   }
   
   .card-body {
     padding: 20px; /* Space inside the card */
     background-color: #E5F5BD;
+    overflow-x: hidden;
   }
 
   .card-text{
     background-color: #E5F5BD;
+    overflow-x: hidden;
   }
 
   
@@ -228,3 +231,88 @@
 
 
   /* what you get ends */
+
+
+
+
+
+
+
+  /* Custom Styles for Contact Form */
+.contact-form-section {
+  padding: 40px 0; /* Spacing around the form */
+}
+form{
+  background-color: #E5F5BD; /* Light background for contrast */
+  border-radius: 12px;
+}
+
+.spacing{
+  padding:20px ;
+  border-radius: 20px;
+}
+
+.form-label {
+  color: black; /* Dark green color for labels */
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded borders for inputs */
+  border: 1px solid #ced4da; /* Light grey border */
+}
+
+.form-text {
+  color: #6c757d; /* Muted text color */
+}
+
+.custom-btn {
+  background-color: #1b5e20; /* Dark green background for the button */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* Remove border */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.custom-btn:hover {
+  background-color: #166016; /* Slightly darker green on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.light{
+  background-color: #234338;
+}
+
+  .footer {
+    background-color: #1A3129;
+    padding: 20px 0;
+}
+
+.footer {
+    padding-top: 10px;
+}
+
+.footer-item {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff; 
+}
+
+
+*{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
