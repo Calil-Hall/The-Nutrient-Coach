@@ -163,18 +163,7 @@
     color: #4CAF50; /* Keeping the same green color for active state */
     
   }
-  
-  /* Custom CSS for Navbar Hover Effect */
-  .nav-link {
-    color: #0056b3; /* Darker background on hover */
-    transition: transform 0.15s ease; /* Smooth transition for transform property */
-  }
-  
-  .nav-link:hover, .nav-link:focus {
-    transform: scale(1.1); /* Increase size to 110% on hover */
-    color: #0056b3; /* Darker background on hover */
-  }
-  
+
 
 
 
@@ -238,6 +227,54 @@
 
 
 
+
+
+
+
+
+
+/* who are we section */
+
+
+.background-color{
+  background-color: #E5F5BD;
+}
+
+.sec-4-h2-text-1{
+  font-size: xxs-large;
+}
+.sec-4-h2-text{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 50px;
+}
+
+.sec-4-p-text{
+  font-size: large;
+}
+
+.sec-4-img-text{
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/* who are we section */
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
   /* Custom Styles for Contact Form */
 .contact-form-section {
   padding: 40px 0; /* Spacing around the form */
@@ -281,6 +318,36 @@ form{
 
 
 
+.form-button-1 {
+  background-color: #CBEA7B; /* Button background color */
+  color: black; /* Text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Text size */
+  font-weight: bold; /* Text weight */
+  margin-right: 10px; /* Margin between buttons */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+.form-button-1:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.form-button-1 {
+  /* Existing styles */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform to the transition */
+}
+
+.form-button-1:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  color: #fff; /* Text color on hover */
+  transform: scale(1.05); /* Slightly increase the size */
+}
+
+
+
 
 
 
@@ -293,6 +360,7 @@ form{
 
 .light{
   background-color: #234338;
+  padding: 1.5%;
 }
 
   .footer {
@@ -310,9 +378,6 @@ form{
     color: #fff; 
 }
 
-
-*{
+body{
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
 }
