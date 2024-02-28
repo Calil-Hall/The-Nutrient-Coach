@@ -1,4 +1,11 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 
 /* hero starts  */
 
@@ -240,6 +247,20 @@
 
 
 
+
+  /* About us starts */
+
+
+  .sec-3-h2-1{
+    font-size: xx-large;
+  }
+
+
+  .sec-3-p{
+    font-size: x-large;
+  }
+
+  /* About us ends */
 
 
 
