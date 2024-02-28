@@ -1,27 +1,21 @@
-// Initialize EmailJS
-(function() {
-    emailjs.init("bsvy--sRrzKCy7ZTP"); // Replace with your public key
-})();
+document.addEventListener('DOMContentLoaded', () => {
+  emailjs.init('h4h8uvx0jplPQd9zP'); // Replace with your actual public key
 
-// Form submission handling
-window.onload = function() {
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
 
-        // Basic validation example
-        if (this.user_name.value.trim() == '' || this.user_email.value.trim() == '' || this.message.value.trim() == '') {
-            alert('Please fill all the fields.');
-            return;
-        }
+    const submitBtn = this.querySelector('button[type="submit"]');
+    submitBtn.textContent = 'Sending...'; // Change the button text to indicate sending
 
-        emailjs.sendForm('service_fs33zu6', 'template_t3hik7e', this)
-            .then(() => {
-                console.log('SUCCESS!');
-                alert('Email sent successfully!');
-                this.reset(); // Reset form after successful submission
-            }, (error) => {
-                console.log('FAILED...', error);
-                alert('Failed to send the email. Please try again.');
-            });
-    });
-}
+    emailjs.sendForm('service_qtl8q9r', 'template_tgpg4x9', this)
+      .then(() => {
+        alert('Message sent successfully!');
+        submitBtn.textContent = 'Send Message'; // Reset button text
+        this.reset(); // Clear the form fields
+      }, (error) => {
+        alert('Failed to send the message. Please try again.');
+        console.error('Failed to send message:', error);
+        submitBtn.textContent = 'Send Message'; // Reset button text
+      });
+  });
+});
