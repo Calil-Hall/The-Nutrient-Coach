@@ -228,3 +228,112 @@
 
 
   /* what you get ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Form Section */
+.contact-form-section {
+  padding: 60px 0; /* Increased top and bottom padding */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+/* Contact Form Styling */
+#contact-form {
+  max-width: 800px; /* Increased maximum width */
+  margin: auto; /* Center the form */
+  padding: 40px; /* Increased padding */
+  background-color: #ffffff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#contact-form label {
+  font-size: 18px; /* Larger label font size */
+  color: #333333; /* Dark color for labels */
+  margin-bottom: 10px; /* Space below each label */
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  font-size: 16px; /* Larger font size for inputs */
+  width: 100%; /* Full width */
+  padding: 12px 20px; /* Increased padding */
+  margin-bottom: 20px; /* Increased margin below each input */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+#contact-form input[type="submit"] {
+  width: 100%; /* Full width button */
+  padding: 15px 20px; /* Increased padding */
+  font-size: 18px; /* Larger font size */
+  background-color: #4CAF50; /* Green background color */
+  color: #ffffff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  #contact-form {
+    padding: 30px; /* Slightly reduced padding */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.light{
+  background-color: #234338;
+  padding: 1.5%;
+}
+
+  .footer {
+    background-color: #1A3129;
+    padding: 20px 0;
+}
+
+.footer {
+    padding-top: 10px;
+}
+
+.footer-item {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff; 
+}
+
+body{
+  overflow-x: hidden;
+}
